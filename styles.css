@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    font-family: "Poppins";
+    background-color: #e3fafc;
+}
+.logo{
+    display: flex;
+    background-color: #1098ad;
+    justify-content: space-between;
+    
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+
+}
+.logopic{
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.drop-box{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    font-size: medium;
+    text-decoration: none;
+
+}
+a{
+    background: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: #1098ad
+
+}
+
+a:hover{
+    background-color: brown;
+    color: white;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    }
+h1{
+    font-size: 55px;
+    font-family: "Poppins";
+    line-height: 1.2;
+    color:#1098ad;
+    
+}
+.para{
+    margin-top: 5px;
+    font-size: 23px;
+    font-family: "Poppins";
+    color: grey;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+.image{
+    width: 600px;
+}
+.shop{
+    color: #1098ad;
+    background-color: white;
+    padding: 10px;
+    font-family: "Bons Nova SC";
+    border-radius: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.shop:hover{
+    color: white;
+    background-color: #1098ad;
+    cursor: pointer;
+}
+h2{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Poppins";
+    color: #1098ad;
+    font-weight: bolder;
+}
+
+.special{
+    display:flex ;
+    width: 1200px;
+    gap: 50px;
+    margin-left: 300px;
+    justify-content: space-between;
+    height: 400px;
+    
+}
+
+.size-6{
+    width: 40px;
+    height: 40px;
+    stroke: #1098ad;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    height: 400px
+}
+.colpara{
+    font-family: "POppins";
+    color: black;
+    font-weight: light;
+    font-size: 20px;
+}
+.review{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 300px;
+    background-color: #1098ad;
+    border-radius: 20px;
+}
+.rev-photo{
+    width: 80%;
+    margin: 20px;
+}
+.rev-para{
+
+    margin-top: 40px;
+    font-family: "Poppins";
+    color: white;
+
+}
+h4{
+    font-size: xx-large;
+    font-family: "poppins";
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.reveen{
+    font-family: "bona nova sc";
+    font-size: medium;
+}
+h5{
+    font-size: 30px;
+    margin-left: 740px;
+    font-family: "poppins";
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:20px;
+    margin-left: 350px
+}
+.product-1{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: azure;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.point-1 p{
+    font-family: "poppins";
+}
+.points{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.points p{
+    font-size: large;
+    text-align: end;
+    justify-content: center;
+    justify-self: center;
+    padding: 10px;
+    justify-items: center;
+}
+ .mani {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: bold;
+    margin-left: 10px;
+    
+ }
+ .manii{
+    width: 60px;
+    margin-right: 10px;
+    letter-spacing: 5px;
+    background-color: brown;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  gray;
+ }
+
+ .manii:hover{
+    background-color: #1098ad;
+    cursor: pointer;
+ }
+
+ h6{
+    text-align: center   ;
+    margin-top: 50px;
+    font-size: medium;
+    color: gray;
+    font-family: "bons nova sc";
+    letter-spacing: 2px;
+    word-spacing: 5px;
+ }
